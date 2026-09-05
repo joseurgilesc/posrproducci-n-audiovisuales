@@ -1,0 +1,667 @@
+PLANIFICACIÓN DE ASIGNATURA
+POSTPRODUCCIÓN PARA MEDIOS AUDIOVISUALES
+
+Duración: 16 semanas.
+Aprendizaje en contacto con el docente: 2 horas semanales, 32 horas en total.
+Aprendizaje autónomo referencial: 4 horas semanales, 64 horas en total.
+Carga total de la asignatura: 96 horas.
+Semana 8: Examen interciclo.
+Semana 16: Examen final.
+Software principal: Ableton Live.
+Entorno de gestión: Google Classroom.
+Recursos complementarios: computador, audífonos, interfaz de audio, controlador MIDI, grabadora o teléfono, librerías de efectos, instrumentos virtuales, plugins de audio y material audiovisual.
+
+FUENTES UTILIZADAS PARA LA PLANIFICACIÓN
+
+1. Sílabo de Postproducción para Medios Audiovisuales, código 18471, Facultad de Artes.
+2. Materiales, temas y actividades del Google Classroom “18471 - POSTPRODUCCIÓN PARA MEDIOS AUDIOVISUALES SEP 2025”.
+3. Estructura de planificación detallada empleada previamente para las asignaturas de la carrera.
+
+NOTA DE ORGANIZACIÓN
+
+El sílabo ubica el examen interciclo en la semana 8 y el examen final en la semana 16. El aula de Google Classroom revisada agrupa el examen final bajo el tema “Clase 15”. Para cumplir la solicitud de 16 semanas y mantener coherencia con el documento curricular, esta planificación utiliza la semana 15 para integración, revisión técnica y preparación de la entrega, y reserva la semana 16 exclusivamente para el examen final.
+
+DESCRIPCIÓN DE LA ASIGNATURA
+
+La asignatura estudia los fundamentos, lenguajes, procesos y herramientas de la postproducción sonora aplicada a medios audiovisuales. Mediante Ableton Live, los estudiantes desarrollan ejercicios de sonomontaje, edición de diálogo, sincronización, warping, diseño de ambientes, creación con instrumentos virtuales, procesamiento con efectos, grabación de Foley, integración de música y preparación de mezclas para video.
+
+El curso articula el análisis audiovisual con una práctica progresiva basada en proyectos. Cada estudiante planifica, organiza y ejecuta un proyecto de sonorización, administra sus archivos y recursos, construye un catálogo sonoro, presenta avances y entrega una versión final técnicamente organizada y coherente con los objetivos narrativos del material visual.
+
+OBJETIVO GENERAL
+
+Desarrollar la capacidad de analizar, planificar, producir, editar, sincronizar, mezclar y presentar proyectos de sonido para medios audiovisuales mediante Ableton Live, integrando diálogo, ambientes, efectos, Foley, instrumentos virtuales y música con criterios narrativos, expresivos, técnicos y organizativos.
+
+OBJETIVOS ESPECÍFICOS
+
+1. Reconocer la evolución de las tecnologías, lenguajes y roles de la postproducción sonora audiovisual.
+2. Analizar la función narrativa y emocional del diálogo, los ambientes, los efectos y la música.
+3. Aplicar técnicas de sonomontaje mediante los conceptos de masa, factura, textura, agrupación y enlace.
+4. Editar y sincronizar audio con imagen utilizando la vista de arreglo, marcadores y warping en Ableton Live.
+5. Diseñar sonidos mediante capas, instrumentos virtuales, envolventes y efectos de audio y MIDI.
+6. Capturar, editar e integrar efectos Foley y otros sonidos originales.
+7. Planificar y administrar los recursos de un proyecto de sonorización audiovisual.
+8. Preparar una mezcla y una entrega final coherentes con los requisitos técnicos del proyecto.
+
+RESULTADOS DE APRENDIZAJE
+
+Al finalizar la asignatura, el estudiante será capaz de:
+
+1. Identificar tecnologías y lenguajes sonoros relevantes en distintos momentos de la historia audiovisual.
+2. Analizar cómo el sonido modifica el espacio, el tiempo, la continuidad, la emoción y el significado de una imagen.
+3. Construir sonomontajes aplicando criterios de masa, factura, textura, enlace, figura y fondo.
+4. Organizar sesiones de Ableton Live con nomenclatura, grupos, subgrupos, colores y rutas de señal coherentes.
+5. Editar diálogos y sonidos de locación para mejorar continuidad, claridad y sincronización.
+6. Utilizar warping, automatización, instrumentos virtuales y efectos para adaptar materiales sonoros a la imagen.
+7. Grabar y editar Foley de acuerdo con las acciones, materiales, perspectiva y espacio de una escena.
+8. Seleccionar o crear música considerando su función narrativa, emocional y legal dentro del proyecto.
+9. Planificar, desarrollar, revisar y presentar una sonorización audiovisual completa.
+
+METODOLOGÍA
+
+Cada semana combina análisis de referentes, explicación conceptual, demostración técnica, práctica guiada, desarrollo de proyectos, escucha crítica y retroalimentación. Las actividades de Google Classroom se utilizan como evidencias de aprendizaje, repositorio de materiales, espacio de entrega y medio de seguimiento de los avances.
+
+Distribución referencial de cada clase de 2 horas:
+- Activación, revisión o análisis inicial: 10 a 20 minutos.
+- Explicación conceptual: 20 a 25 minutos.
+- Demostración técnica en Ableton Live: 20 a 30 minutos.
+- Práctica guiada o desarrollo de proyecto: 40 a 55 minutos.
+- Escucha, retroalimentación y organización de la entrega: 10 a 20 minutos.
+
+El aprendizaje autónomo de 4 horas semanales complementa la clase mediante investigación, selección de materiales, edición, registro sonoro, desarrollo del proyecto y preparación de evidencias.
+
+========================================================================================================================
+SEMANA | CONTENIDOS | ACTIVIDADES EN CLASE | ACTIVIDAD AUTÓNOMA
+========================================================================================================================
+
+SEMANA 1
+UNIDAD 1. FUNDAMENTOS DEL SONIDO APLICADO A MEDIOS AUDIOVISUALES
+
+CONTENIDOS:
+Presentación de la asignatura, metodología, evaluación y proyecto final.
+Funciones del sonido en los medios audiovisuales.
+Relaciones entre imagen, diálogo, ambiente, efectos, Foley y música.
+Escucha causal, semántica y reducida como aproximaciones de análisis.
+Introducción al sonomontaje y a la organización básica de una sesión.
+Recursos del Classroom: sílabo, diseño de sonido para medios audiovisuales, Adobe Sound Effects, bancos de sonidos y material sobre sonomontaje.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Presentación de resultados de aprendizaje, evaluaciones y normas de organización de archivos (15 min).
+2. Cuestionario diagnóstico sobre Ableton Live, edición, sincronización, diseño de sonido y narrativa audiovisual (10 min).
+3. Análisis guiado de una escena de “Gravity” de Alfonso Cuarón, identificando diálogo, ambiente, efectos, música, silencio, perspectiva y continuidad (25 min).
+4. Comparación de la escena con y sin algunos componentes sonoros para discutir cómo cambia su percepción (15 min).
+5. Demostración de creación de un proyecto de Ableton Live, importación de audio y organización básica de pistas (20 min).
+6. Práctica: construcción de un primer sonomontaje breve a partir de sonidos proporcionados por el docente (25 min).
+7. Escucha de resultados, retroalimentación y explicación de la entrega en Classroom (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Crear un ambiente sonoro de 45 a 60 segundos para una imagen estática. Utilizar al menos cuatro capas y explicar, en un texto breve, cómo el sonido modifica la percepción de la imagen. Entregar el proyecto de Ableton Live recopilado, una exportación de audio y la reflexión escrita.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 2
+UNIDAD 2. HISTORIA, PROCESO Y TÉCNICA DE SONOMONTAJE
+
+CONTENIDOS:
+Introducción histórica a la postproducción sonora.
+Etapas del proceso: preproducción, edición, diseño, mezcla y entrega.
+Roles del equipo: supervisor de sonido, editor de diálogo, editor de efectos, artista Foley, diseñador de sonido, compositor y mezclador.
+Conceptos de masa y factura sonora.
+Continuidad, contraste y transformación dentro del sonomontaje.
+Referencia del Classroom: obra Fragtraz y sonomontaje de un minuto con masa y factura.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Línea de tiempo comentada de tecnologías y prácticas de postproducción sonora (15 min).
+2. Identificación de roles y etapas a partir de un caso de película, publicidad o video para redes (15 min).
+3. Explicación y escucha comparativa de masa y factura sonora (20 min).
+4. Audición y discusión de la obra Fragtraz u otro referente de montaje sonoro (15 min).
+5. Demostración de cortes, fundidos, superposición, cambios de ganancia y organización temporal en Ableton Live (20 min).
+6. Práctica guiada: creación de un sonomontaje de 30 segundos uniendo materiales por semejanza o contraste de masa y factura (25 min).
+7. Escucha colectiva y comentarios registrados en Classroom (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Realizar un sonomontaje de un minuto aplicando conscientemente los criterios de masa y factura. Incluir entre seis y diez sonidos, utilizar transiciones claras y entregar audio, proyecto recopilado y una descripción de las decisiones de montaje.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 3
+UNIDAD 3. TIPOS DE ENLACE, INSTRUMENTOS VIRTUALES, ENVOLVENTES Y EFECTOS
+
+CONTENIDOS:
+Tipos de enlace entre eventos sonoros.
+Continuidad por semejanza, proximidad, superposición, transformación y contraste.
+Vista de arreglo de Ableton Live.
+Instrumentos virtuales y MIDI aplicado al diseño de sonido.
+Envolventes de amplitud, filtro y altura.
+Efectos básicos y automatización.
+Referencia del Classroom: Tipos de enlace, Sonomontaje en tres partes, Repaso sobre instrumentos virtuales y Vista de arreglo.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Revisión auditiva de sonomontajes y clasificación de los enlaces utilizados (15 min).
+2. Explicación de cinco formas de enlace y su efecto sobre la continuidad (20 min).
+3. Demostración de la vista de arreglo, pistas MIDI, instrumentos y envolventes (25 min).
+4. Diseño guiado de tres sonidos con ataques, sostenimientos y decaimientos diferentes (20 min).
+5. Construcción de un sonomontaje en tres partes: presentación, transformación y cierre (30 min).
+6. Escucha y revisión de automatizaciones, niveles y transiciones (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Completar un sonomontaje tripartito de 60 a 90 segundos. Combinar audio grabado o de librería con al menos un instrumento virtual, dos envolventes automatizadas y dos tipos de enlace identificados en marcadores o en una memoria breve.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 4
+UNIDAD 4. SINCRONIZACIÓN INICIAL Y WARPING
+
+CONTENIDOS:
+Importación y configuración de video en Ableton Live.
+Frecuencia de fotogramas y relación entre tiempo audiovisual y tiempo musical.
+Marcadores, puntos de sincronía y eventos relevantes.
+Warping de audio y música.
+Adaptación de duración, tempo y estructura a una imagen.
+Referencia del Classroom: Uso de warping, primer acercamiento al proyecto de video e inclusión de música en el video Numeral.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Identificación de puntos de sincronía en un clip breve (15 min).
+2. Demostración de importación de video, organización de pistas y marcadores (20 min).
+3. Explicación de los modos y principios de warping aplicables a voz, música, ambientes y efectos (20 min).
+4. Práctica guiada de ajuste temporal de un audio a tres acciones visuales (30 min).
+5. Inclusión de música en un fragmento de video y adaptación de su estructura mediante cortes, fundidos y warping (25 min).
+6. Revisión de sincronía y entrega del avance en Classroom (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Seleccionar o utilizar el video asignado y completar la primera mitad de un ejercicio de sonorización. Incorporar ambientes, efectos y música; establecer marcadores y utilizar warping cuando sea necesario. Entregar video de avance y proyecto recopilado.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 5
+UNIDAD 5. DISEÑO DE SONIDO CON INSTRUMENTOS VIRTUALES Y CAPAS
+
+CONTENIDOS:
+Diseño de sonido mediante síntesis, sampling y capas.
+Selección de timbres según acción, espacio, material y emoción.
+Instrumentos virtuales como fuente de efectos y ambientes.
+Procesamiento de envolventes, filtros, altura y modulación.
+Relación entre sonido realista, sonido hiperreal y sonido subjetivo.
+Referencia del Classroom: Instrumentos virtuales segunda parte, avance con instrumentos virtuales y segundo avance del video Numeral.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Escucha comparativa de efectos grabados, sintetizados e híbridos (15 min).
+2. Explicación de capas funcionales: cuerpo, ataque, textura, movimiento y cola (20 min).
+3. Demostración de creación de un efecto audiovisual con un instrumento virtual y muestras de audio (25 min).
+4. Práctica: diseño en grupos de un sonido para una acción visible, utilizando al menos tres capas (35 min).
+5. Integración del sonido creado en el video de trabajo y ajuste de perspectiva (15 min).
+6. Escucha crítica y registro de observaciones para el segundo avance (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Completar el segundo avance del video. Añadir al menos tres sonidos creados o transformados con instrumentos virtuales, organizar las capas y exportar una versión con imagen. Entregar el proyecto recopilado y una lista de los procesos utilizados.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 6
+UNIDAD 6. EDICIÓN DE DIÁLOGO Y SONIDO DE LOCACIÓN
+
+CONTENIDOS:
+Función narrativa y continuidad del diálogo.
+Selección y organización de tomas.
+Limpieza, cortes, fundidos y ganancia de clip.
+Reducción controlada de ruido y conservación de naturalidad.
+Room tone, ambientes de continuidad y perspectiva.
+Sincronización de diálogo con imagen.
+Referencia del Classroom: Lineamientos para manejo de diálogos, Edición de diálogos “Historia de Navidad” y diseño de sonido con sonomontaje y warping.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Análisis de problemas habituales en una pista de diálogo (15 min).
+2. Demostración de organización, nomenclatura y selección de tomas (20 min).
+3. Edición guiada de cortes, respiraciones, fundidos y room tone (25 min).
+4. Aplicación moderada de ecualización, reducción de ruido, compresión o automatización de ganancia (20 min).
+5. Práctica individual con el diálogo de una escena proporcionada (30 min).
+6. Comparación antes/después y preparación de la entrega (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Editar el diálogo del proyecto asignado o de la escena “Historia de Navidad”. Entregar una versión limpia y sincronizada, conservar una copia sin procesar y presentar una breve bitácora con los problemas identificados y las soluciones aplicadas.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 7
+UNIDAD 7. TEXTURA, GESTALT, GRUPOS, SUBGRUPOS Y CATÁLOGO SONORO
+
+CONTENIDOS:
+Textura sonora y construcción por multicapas.
+Principios de Gestalt aplicados a la percepción sonora.
+Figura y fondo, proximidad, semejanza, continuidad y cierre.
+Grupos y subgrupos en Ableton Live.
+Separación funcional de diálogo, ambientes, efectos, Foley, música e instrumentos virtuales.
+Creación y organización de un catálogo sonoro para el proyecto.
+Música incidental como capa narrativa.
+Referencia del Classroom: Teoría de la Gestalt, ejercicio de conceptos, Freesound, grupos y subgrupos y música incidental.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Visualización o revisión del material sobre Gestalt y discusión guiada (20 min).
+2. Ejercicio auditivo para distinguir figura, fondo, proximidad, semejanza y continuidad (20 min).
+3. Demostración de grupos, subgrupos, colores, nombres, ruteo y pistas de referencia (20 min).
+4. Reorganización de un proyecto desordenado siguiendo una plantilla profesional (25 min).
+5. Construcción de una textura de ambiente con planos cercano, medio y lejano (25 min).
+6. Selección del video y revisión de requisitos para el examen interciclo (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Crear un catálogo propio para el proyecto con carpetas de diálogo, ambientes, efectos, Foley, música y sonidos diseñados. Registrar fuente y licencia de cada archivo externo. Preparar la sesión y el video que se utilizarán en el examen interciclo.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 8
+CONTENIDOS:
+EXAMEN INTERCICLO.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Evaluación práctica individual y exclusiva.
+2. Realización o finalización de un sonomontaje audiovisual a partir del material asignado.
+3. Aplicación de masa, factura, tipos de enlace, capas, instrumentos virtuales, efectos y warping.
+4. Organización de pistas mediante nombres, colores, grupos y marcadores.
+5. Revisión de sincronía, continuidad, niveles y funcionamiento del video.
+6. Exportación y entrega en Google Classroom del video y del proyecto recopilado.
+7. No se desarrollan contenidos nuevos, no se revisan tareas anteriores y no se realizan actividades adicionales durante esta semana.
+
+ACTIVIDAD AUTÓNOMA:
+No se asigna una actividad nueva. Las horas autónomas se destinan a la preparación previa y al respaldo organizado de los materiales requeridos para el examen.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 9
+UNIDAD 8. EFECTOS DE AUDIO, EFECTOS MIDI Y DISEÑO PARA VIDEOARTE
+
+CONTENIDOS:
+Efectos de audio creativos y correctivos.
+Ecualización, compresión, saturación, modulación, delay y reverberación.
+Procesamiento espectral y transformación tímbrica.
+Efectos MIDI: arpegiación, escalas, velocidad y generación de patrones.
+Cadenas, racks, automatización y resampling.
+Diseño sonoro para videoarte.
+Referencia del Classroom: Efectos espectrales, efectos MIDI y de audio, explicación de clase y ejercicio de videoarte.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Revisión técnica de errores observados en el interciclo (15 min).
+2. Demostración comparativa de efectos correctivos y creativos (20 min).
+3. Creación de una cadena de efectos espectrales o de transformación (25 min).
+4. Construcción de un patrón con efectos MIDI y un instrumento virtual (20 min).
+5. Práctica: diseño sonoro de un fragmento de videoarte mediante procesamiento, automatización y resampling (30 min).
+6. Escucha, retroalimentación y elección inicial del video para el proyecto final (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Realizar un ejercicio de videoarte de 45 a 60 segundos con al menos tres efectos de audio, un proceso MIDI y automatización de parámetros. Entregar video, proyecto recopilado y captura de la cadena de procesamiento.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 10
+UNIDAD 9. GRABACIÓN DE SONIDO Y FOLEY
+
+CONTENIDOS:
+Función del Foley en el realismo, la continuidad y la expresividad.
+Análisis de acciones, materiales, superficies, peso y perspectiva.
+Planificación de una sesión de grabación.
+Selección y ubicación de micrófono o grabadora.
+Grabación, selección, edición, sincronización y procesamiento.
+Construcción de una librería propia.
+Referencia del Classroom: Sonidos Foley, La magia detrás del realismo en el cine, The Magic of Making Sound, aplicación para grabar sonido y ejercicio práctico de Foley.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Observación y análisis de un referente sobre creación de Foley (15 min).
+2. Desglose de una escena en una hoja de cues o eventos grabables (15 min).
+3. Demostración de grabación de pasos, movimientos de ropa y manipulación de objetos (25 min).
+4. Grabación por grupos de varias tomas para una acción asignada (25 min).
+5. Edición, limpieza, sincronización y ajuste de perspectiva en Ableton Live (30 min).
+6. Escucha comparativa y selección de las mejores tomas (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Grabar e integrar una secuencia Foley para un clip de 30 a 60 segundos. Incluir al menos cinco tipos de acciones, organizar los archivos con nomenclatura consistente y entregar video, proyecto recopilado y carpeta de grabaciones originales.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 11
+UNIDAD 10. MÚSICA, EMOCIÓN Y NARRATIVA AUDIOVISUAL
+
+CONTENIDOS:
+La música aplicada a medios visuales.
+Funciones narrativa, emocional, rítmica, simbólica y estructural.
+Música incidental, diegética y extradiegética.
+Relación entre timbre, armonía, tempo, registro y emoción.
+Contrapunto entre música e imagen.
+Música temporal, banda sonora original y música comercial.
+Referencia del Classroom: Música y emociones, preguntas sobre impacto emocional y elección del video propio.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Audición de tres fragmentos musicales y descripción individual de su posible impacto audiovisual (15 min).
+2. Comparación de una misma escena con propuestas musicales contrastantes (20 min).
+3. Explicación de funciones musicales y relaciones entre parámetros sonoros y emoción (25 min).
+4. Práctica: musicalización de un clip breve con dos enfoques emocionales distintos (35 min).
+5. Presentación de resultados y discusión sobre coherencia, contraste y estereotipo (15 min).
+6. Confirmación del video de elección propia para el proyecto final (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Realizar dos versiones de 30 a 45 segundos de una misma escena utilizando músicas o tratamientos musicales diferentes. Entregar ambas versiones y una comparación escrita sobre los cambios emocionales y narrativos producidos.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 12
+UNIDAD 11. PLANIFICACIÓN DEL PROYECTO FINAL, RECURSOS Y DERECHOS
+
+CONTENIDOS:
+Definición del objetivo narrativo y técnico del proyecto final.
+Selección y análisis del video.
+Spotting: identificación de eventos, silencios y puntos de sincronía.
+Plan de diálogo, ambientes, efectos, Foley y música.
+Cronograma, recursos, responsabilidades y alcance.
+Música temporal, licencias, atribución y derechos de autor.
+Uso responsable de Freesound, Adobe Sound Effects y otras librerías.
+Referencia del Classroom: elección de video, video de proyecto final y revisión de avances.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Presentación de alcance, condiciones y formatos del proyecto final (15 min).
+2. Análisis individual del video mediante una hoja de spotting (25 min).
+3. Elaboración de un mapa de capas y prioridades narrativas (20 min).
+4. Explicación de categorías básicas de licencias y registro de fuentes (20 min).
+5. Construcción del cronograma y estructura de carpetas del proyecto (20 min).
+6. Tutoría breve por estudiante o equipo para aprobar el alcance (20 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Entregar la planificación del proyecto final: video seleccionado, sinopsis, objetivo sonoro, hoja de spotting, lista de recursos, cronograma, estructura de carpetas y registro inicial de fuentes y licencias.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 13
+UNIDAD 12. PRIMER AVANCE Y ESTRATEGIAS DE MEZCLA
+
+CONTENIDOS:
+Revisión del primer avance del proyecto final.
+Balance entre diálogo, ambientes, efectos, Foley y música.
+Ganancia, panorama, profundidad y perspectiva.
+Ecualización correctiva y separación de capas.
+Compresión y control de dinámica.
+Reverberación y construcción de espacio.
+Grupos, subgrupos, buses y automatización.
+Referencia del Classroom: Revisión de avances del proyecto y revisión de avances segunda parte.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Comprobación de estructura, recopilación y funcionamiento de los proyectos (10 min).
+2. Escucha de avances con una rúbrica común y registro de observaciones (25 min).
+3. Demostración de jerarquía mediante nivel, ecualización, panorama y profundidad (25 min).
+4. Revisión de grupos, subgrupos, procesamiento compartido y rutas de señal (20 min).
+5. Trabajo de mezcla sobre el proyecto individual con tutoría del docente (30 min).
+6. Definición de tres correcciones prioritarias y fecha del siguiente avance (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Aplicar las correcciones del primer avance y entregar una segunda versión del proyecto. Incluir una mezcla provisional, captura de la organización de pistas y una bitácora de cambios con al menos cinco decisiones justificadas.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 14
+UNIDAD 13. SEGUNDO AVANCE, DETALLES Y SINCRONIZACIÓN
+
+CONTENIDOS:
+Revisión del segundo avance.
+Sincronización fina de eventos.
+Transitorios, anticipaciones, prolongaciones y colas.
+Automatización de niveles, panorama, filtros y efectos.
+Continuidad entre planos y cambios de perspectiva.
+Uso expresivo del silencio.
+Detección de vacíos, redundancias y sobrecarga sonora.
+Referencia del Classroom: revisión de avances, inclusión de detalles y avance previo al examen.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Proyección de avances y comprobación de sincronía en puntos críticos (20 min).
+2. Demostración de ajustes por fotograma, automatización y control de transitorios (20 min).
+3. Análisis de figura y fondo para detectar exceso o ausencia de información (15 min).
+4. Trabajo individual sobre sincronía, perspectiva, transiciones y silencios (40 min).
+5. Revisión cruzada entre pares mediante una lista de cotejo (15 min).
+6. Registro de correcciones finales para la semana 15 (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Completar una versión casi final del proyecto. Corregir sincronización, transiciones, automatizaciones y detalles; exportar un video de revisión y entregar una lista de asuntos pendientes para el cierre.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 15
+UNIDAD 14. MEZCLA FINAL, CONTROL DE CALIDAD Y FORMATOS DE ENTREGA
+
+CONTENIDOS:
+Revisión integral del proyecto.
+Mezcla final y control de niveles.
+Coherencia de diálogo, ambientes, efectos, Foley y música.
+Control de calidad técnico, narrativo y organizativo.
+Formatos de exportación y codificación de video.
+Proyecto recopilado, archivos fuente y documentación.
+Preparación para la presentación y el examen final.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Presentación de la lista de cotejo final y de la estructura de entrega (15 min).
+2. Revisión de inicio, final, sincronía, transiciones, niveles, ruidos y silencios no intencionales (20 min).
+3. Demostración de exportación de mezcla, reemplazo o incorporación en video y verificación posterior (20 min).
+4. Trabajo individual de mezcla y corrección final con monitoreo del docente (40 min).
+5. Simulación de presentación: explicación de intención, procesos y decisiones principales (15 min).
+6. Respaldo, recopilación y comprobación de que todos los archivos abran correctamente (10 min).
+
+ACTIVIDAD AUTÓNOMA - 4 HORAS:
+Finalizar y respaldar el proyecto. Preparar video final, mezcla de audio, proyecto recopilado, carpeta de fuentes, hoja de créditos/licencias y presentación breve. Comprobar la reproducción de todos los archivos antes del examen.
+
+------------------------------------------------------------------------------------------------------------------------
+
+SEMANA 16
+CONTENIDOS:
+EXAMEN FINAL.
+
+ACTIVIDADES EN CLASE - 120 MINUTOS:
+1. Evaluación individual y exclusiva mediante presentación del proyecto final.
+2. Proyección del video terminado con su sonorización completa.
+3. Exposición breve de objetivos, planificación, recursos, técnicas y decisiones narrativas.
+4. Presentación de la sesión organizada de Ableton Live y de las evidencias solicitadas.
+5. Verificación de diálogo, ambientes, efectos, Foley, música, sincronización, mezcla y formato de entrega.
+6. Entrega definitiva en Google Classroom del video, proyecto recopilado y documentación.
+7. No se desarrollan contenidos nuevos, no se revisan tareas anteriores y no se realizan actividades adicionales durante esta semana.
+
+ACTIVIDAD AUTÓNOMA:
+No se asigna una actividad posterior. Las horas autónomas corresponden a la preparación previa, verificación y respaldo de la entrega final.
+
+========================================================================================================================
+ORGANIZACIÓN PROPUESTA PARA GOOGLE CLASSROOM
+========================================================================================================================
+
+TEMA 0. INFORMACIÓN GENERAL
+- Sílabo.
+- Planificación de 16 semanas.
+- Sistema de evaluación.
+- Cronograma de entregas.
+- Instrucciones de instalación y configuración de Ableton Live.
+- Plantilla para organizar proyectos.
+- Convención para nombres de archivos.
+- Rúbricas y listas de cotejo.
+
+TEMA 1. FUNDAMENTOS Y SONOMONTAJE
+- Diseño de sonido para medios audiovisuales.
+- Análisis de escena de “Gravity”.
+- Material sobre sonomontaje.
+- Adobe Sound Effects y bancos de sonidos.
+- Primer sonomontaje.
+- Sonomontaje con masa y factura.
+- Comentarios sobre Fragtraz.
+
+TEMA 2. INSTRUMENTOS VIRTUALES, ENLACES Y WARPING
+- Tipos de enlace.
+- Sonomontaje en tres partes.
+- Repaso de instrumentos virtuales.
+- Vista de arreglo de Ableton Live.
+- Primer diseño sonoro para video.
+- Uso de warping.
+- Avances del video Numeral.
+
+TEMA 3. DIÁLOGO, TEXTURA Y GESTALT
+- Lineamientos para manejo de diálogos.
+- Edición de diálogo.
+- Teoría de la Gestalt.
+- Ejercicio sobre conceptos de Gestalt.
+- Freesound y creación de catálogos.
+- Grupos y subgrupos.
+- Música incidental.
+
+TEMA 4. EXAMEN INTERCICLO
+- Consigna.
+- Material audiovisual.
+- Rúbrica.
+- Espacio único para entrega del video y proyecto recopilado.
+
+TEMA 5. EFECTOS Y FOLEY
+- Efectos de audio y MIDI.
+- Efectos espectrales.
+- Ejercicio de videoarte.
+- Explicación sobre Foley.
+- Aplicaciones para grabación.
+- Ejercicio práctico de Foley.
+
+TEMA 6. MÚSICA Y EMOCIONES
+- Música, sonidos y emociones.
+- Preguntas de análisis emocional.
+- Música incidental, temporal y comercial.
+- Derechos, licencias y atribución.
+- Ejercicio de cambio emocional mediante música.
+
+TEMA 7. PROYECTO FINAL
+- Elección y aprobación del video.
+- Planificación y hoja de spotting.
+- Primer avance.
+- Segundo avance.
+- Avance previo al examen.
+- Lista de cotejo final.
+- Examen y entrega final.
+
+========================================================================================================================
+ESTRUCTURA DE ARCHIVOS Y ENTREGAS
+========================================================================================================================
+
+1. CARPETA PRINCIPAL
+APELLIDO_Nombre_NombreProyecto
+
+2. SUBCARPETAS SUGERIDAS
+- 01_VIDEO
+- 02_DIALOGO
+- 03_AMBIENTES
+- 04_EFECTOS
+- 05_FOLEY
+- 06_MUSICA
+- 07_INSTRUMENTOS_VIRTUALES
+- 08_PROYECTO_ABLETON
+- 09_EXPORTACIONES
+- 10_DOCUMENTACION
+
+3. NOMBRES DE ARCHIVO
+- APELLIDO_Nombre_Semana##_Actividad_v01.als
+- APELLIDO_Nombre_Semana##_Actividad_v01.wav
+- APELLIDO_Nombre_Semana##_Actividad_v01.mp4
+- Las revisiones posteriores deben usar v02, v03, etc.
+
+4. EVIDENCIAS SEGÚN LA ACTIVIDAD
+- Proyecto de Ableton Live recopilado.
+- Exportación de audio WAV.
+- Video MP4 con la sonorización incorporada.
+- Capturas de sesión o cadenas de efectos cuando sean solicitadas.
+- Bitácora de procesos y decisiones.
+- Registro de fuentes, autores y licencias.
+- Hoja de spotting o lista de cues.
+
+========================================================================================================================
+LISTA DE COTEJO PARA PROYECTOS
+========================================================================================================================
+
+ORGANIZACIÓN:
+- Carpetas, pistas, grupos y archivos correctamente nombrados.
+- Proyecto recopilado y abierto sin archivos perdidos.
+- Colores y grupos coherentes con la función de cada pista.
+- Versiones y exportaciones claramente identificadas.
+
+NARRATIVA Y DISEÑO:
+- El sonido responde a las acciones y al objetivo expresivo del video.
+- Existe una jerarquía clara entre figura y fondo.
+- Las capas aportan información y no generan saturación innecesaria.
+- Los silencios y contrastes tienen una función perceptible.
+
+EDICIÓN Y SINCRONIZACIÓN:
+- Cortes y fundidos sin clics ni interrupciones involuntarias.
+- Diálogo comprensible y continuo.
+- Eventos sincronizados con la precisión requerida por la escena.
+- Warping utilizado sin artefactos excesivos.
+- Foley coherente con acción, material, peso, distancia y perspectiva.
+
+MEZCLA:
+- Balance adecuado entre diálogo, ambientes, efectos, Foley y música.
+- Niveles controlados y sin saturación digital.
+- Panorama y profundidad coherentes con la imagen.
+- Procesamiento dinámico, espectral y espacial aplicado con intención.
+- Transiciones y cambios de plano sonoramente continuos.
+
+ENTREGA:
+- Video final reproducido y verificado.
+- Audio final exportado.
+- Proyecto recopilado.
+- Fuentes y licencias documentadas.
+- Archivos cargados dentro del plazo y en los formatos solicitados.
+
+========================================================================================================================
+PROPUESTA DE EVALUACIÓN
+========================================================================================================================
+
+APROVECHAMIENTO I - TAREAS EN CLASE: 25 PUNTOS
+- Análisis audiovisual y participación: 5 puntos.
+- Sonomontajes de masa, factura y enlaces: 8 puntos.
+- Instrumentos virtuales, warping y diseño para video: 7 puntos.
+- Diálogo, Gestalt y organización: 5 puntos.
+
+EXAMEN INTERCICLO: 20 PUNTOS
+- Aplicación conceptual y narrativa: 5 puntos.
+- Edición, sincronización y warping: 5 puntos.
+- Capas, instrumentos y efectos: 4 puntos.
+- Organización del proyecto: 3 puntos.
+- Mezcla, exportación y entrega: 3 puntos.
+
+APROVECHAMIENTO II - PRÁCTICAS: 25 PUNTOS
+- Efectos de audio/MIDI y videoarte: 5 puntos.
+- Grabación y edición de Foley: 5 puntos.
+- Música y emociones: 4 puntos.
+- Planificación del proyecto final: 4 puntos.
+- Primer, segundo y tercer avance: 7 puntos.
+
+EXAMEN FINAL: 30 PUNTOS
+- Coherencia narrativa y propuesta sonora: 6 puntos.
+- Diálogo, ambientes, efectos y Foley: 6 puntos.
+- Música, diseño y creatividad: 4 puntos.
+- Edición y sincronización: 4 puntos.
+- Mezcla y control técnico: 4 puntos.
+- Organización, documentación y licencias: 3 puntos.
+- Presentación y formatos de entrega: 3 puntos.
+
+TOTAL: 100 PUNTOS
+
+========================================================================================================================
+RECURSOS PARA EL APRENDIZAJE
+========================================================================================================================
+
+- Ableton Live.
+- Computador con capacidad para reproducir y editar video.
+- Audífonos y monitores de estudio cuando estén disponibles.
+- Interfaz de audio.
+- Controlador MIDI.
+- Micrófono, grabadora portátil o teléfono para prácticas de registro.
+- Plugins e instrumentos virtuales disponibles en el laboratorio.
+- Google Classroom.
+- Google Drive para organización y respaldo de materiales.
+- Adobe Sound Effects.
+- Freesound, respetando las condiciones de licencia y atribución de cada sonido.
+- Material audiovisual proporcionado por el docente o utilizado con autorización académica.
+
+BIBLIOGRAFÍA DE REFERENCIA DEL SÍLABO
+
+- Sonnenschein, D. Sound Design: The Expressive Power of Music, Voice and Sound Effects in Cinema.
+- Farnell, A. Designing Sound. MIT Press.
+- Viers, R. The Sound Effects Bible.
+- Chung, B. W. C. Multimedia Programming with Pure Data.
+
+========================================================================================================================
+RESULTADO FINAL ESPERADO
+========================================================================================================================
+
+Al finalizar la asignatura, el estudiante deberá ser capaz de planificar y ejecutar la postproducción sonora de un fragmento audiovisual; organizar una sesión completa de Ableton Live; editar diálogo; construir ambientes, efectos y texturas; diseñar y sincronizar sonidos; grabar Foley; integrar música con una intención narrativa; aplicar una mezcla coherente; documentar los recursos utilizados; y presentar un video final acompañado por su proyecto editable y sus archivos de respaldo.

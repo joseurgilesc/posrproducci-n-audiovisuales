@@ -1,0 +1,71 @@
+site_name: "Postproducción para Medios Audiovisuales"
+site_description: "Fundamentos, procesos y herramientas de la postproducción sonora audiovisual con Ableton Live"
+site_author: "José"
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Modo oscuro
+    - scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.arithmatex
+  - footnotes
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: es
+
+nav:
+  - Inicio: index.md
+  - Objetivos: objetivos.md
+  - Logros de aprendizaje: logros.md
+  - Calendario: calendario.md
+  - Bibliografía: bibliografia.md
+  - Unidad 1 · Fundamentos y sonomontaje:
+      - Sesión 01: sesiones/sesion-01.md
+      - Sesión 02: sesiones/sesion-02.md
+      - Sesión 03: sesiones/sesion-03.md
+  - Unidad 2 · Edición, sincronización y diseño:
+      - Sesión 04: sesiones/sesion-04.md
+      - Sesión 05: sesiones/sesion-05.md
+      - Sesión 06: sesiones/sesion-06.md
+      - Sesión 07: sesiones/sesion-07.md
+      - Sesión 08: sesiones/sesion-08.md
+  - Unidad 3 · Efectos, Foley y música:
+      - Sesión 09: sesiones/sesion-09.md
+      - Sesión 10: sesiones/sesion-10.md
+      - Sesión 11: sesiones/sesion-11.md
+  - Unidad 4 · Proyecto final y mezcla:
+      - Sesión 12: sesiones/sesion-12.md
+      - Sesión 13: sesiones/sesion-13.md
+      - Sesión 14: sesiones/sesion-14.md
