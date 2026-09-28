@@ -67,6 +67,17 @@ Posee una altura claramente reconocible. Puede cantarse o relacionarse con una n
 
 Aunque un piano tenga numerosos armónicos, el oído puede integrarlos alrededor de una altura principal. Por eso **masa tónica no significa espectro simple**.
 
+#### Escucha · masa tónica
+
+**Onda sinusoidal de 440 Hz (La4)**
+
+<audio controls preload="none" style="width:100%">
+  <source src="https://commons.wikimedia.org/wiki/Special:Redirect/file/440_Sine_wave.ogg" type="audio/ogg">
+  Tu navegador no soporta reproducción de audio.
+</audio>
+
+*Escucha una altura completamente estable y definida. Fuente: Wikimedia Commons · Ubershmekel · CC0.*
+
 ### Masa compleja
 
 No posee una altura precisa, aunque puede localizarse globalmente como grave, media o aguda.
@@ -91,6 +102,17 @@ No posee una altura precisa, aunque puede localizarse globalmente como grave, me
 
 Una masa compleja **no tiene que ser ruido puro**. Puede contener componentes discretos e inarmónicos y seguir sin ofrecer una altura única reconocible.
 
+#### Escucha · masa compleja
+
+**Crash de platillo**
+
+<audio controls preload="none" style="width:100%">
+  <source src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Crash_cymbal.ogg" type="audio/ogg">
+  Tu navegador no soporta reproducción de audio.
+</audio>
+
+*Observa que podemos percibir una región espectral y un brillo característico, pero no una nota única. Fuente: Wikimedia Commons · Clngre · GFDL.*
+
 ### Masa variable
 
 La organización espectral cambia a lo largo del tiempo.
@@ -111,6 +133,17 @@ Puede ocurrir con una altura definida —por ejemplo, un glissando— o con una 
 </svg>
 </div>
 
+#### Escucha · masa variable
+
+**Glissando de arpa**
+
+<audio controls preload="none" style="width:100%">
+  <source src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Gliss.ogg" type="audio/ogg">
+  Tu navegador no soporta reproducción de audio.
+</audio>
+
+*La posición de la masa cambia claramente en el registro a lo largo del tiempo. Fuente: Wikimedia Commons · Daniel Musiklexikon · dominio público.*
+
 ---
 
 ## Factura: cómo existe el sonido en el tiempo
@@ -125,6 +158,13 @@ Objeto muy breve, dominado por un ataque.
 
 **Ejemplos:** palmada, clic, golpe de madera, pizzicato seco.
 
+<audio controls preload="none" style="width:100%">
+  <source src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Clap1.ogg" type="audio/ogg">
+  Tu navegador no soporta reproducción de audio.
+</audio>
+
+*Ejemplo: palmada breve. Fuente: Wikimedia Commons · WikiGrower1 · CC BY 4.0.*
+
 ### Mantenimiento
 
 El sonido presenta continuidad perceptible en el tiempo.
@@ -136,6 +176,22 @@ El sonido presenta continuidad perceptible en el tiempo.
 Una serie de impulsos próximos se percibe como un solo objeto organizado por repetición.
 
 **Ejemplos:** redoble, trémolo, maraca, vibración mecánica.
+
+**Maracas**
+
+<audio controls preload="none" style="width:100%">
+  <source src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Maracas.ogg" type="audio/ogg">
+  Tu navegador no soporta reproducción de audio.
+</audio>
+
+**Redoble**
+
+<audio controls preload="none" style="width:100%">
+  <source src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Drum_Roll_Intro.ogg" type="audio/ogg">
+  Tu navegador no soporta reproducción de audio.
+</audio>
+
+*En ambos casos, múltiples impulsos próximos se integran perceptivamente como un objeto iterativo. Fuentes: Wikimedia Commons; Maracas, dominio público; Drum Roll Intro, CC0.*
 
 <div style="max-width:860px;margin:1.5rem auto;">
 <svg viewBox="0 0 860 330" width="100%" role="img" aria-label="Comparación gráfica entre impulsión, mantenimiento e iteración">
@@ -277,6 +333,12 @@ En esta sesión nos concentraremos en masa y factura para construir una primera 
 
 ## Actividades
 
+!!! tip "Ejercicio rápido de escucha"
+    Reproduce los ejemplos anteriores **sin mostrar inicialmente su clasificación**. Pide al grupo que responda primero:  
+    1. ¿Hay una altura definida?  
+    2. ¿La masa permanece estable o cambia?  
+    3. ¿Es un impulso, un sonido mantenido o una iteración?
+
 1. **Escucha inicial:** identificar rápidamente si distintos sonidos son tónicos, complejos o variables.
 2. **Clasificación temporal:** reconocer impulsión, mantenimiento e iteración.
 3. **Matriz masa × factura:** clasificar entre 8 y 12 sonidos proporcionados por el docente.
@@ -339,6 +401,12 @@ El montaje debe incluir conscientemente:
 - Schaeffer, Pierre. *Treatise on Musical Objects: An Essay Across Disciplines*. University of California Press, 2017.
 - Obra de referencia: *Fragtraz* u otro montaje sonoro seleccionado para la clase.
 - Material complementario sobre tipología y morfología del objeto sonoro disponible en Classroom.
+- [Wikimedia Commons · 440 Sine wave](https://commons.wikimedia.org/wiki/File:440_Sine_wave.ogg)
+- [Wikimedia Commons · Crash cymbal](https://commons.wikimedia.org/wiki/File:Crash_cymbal.ogg)
+- [Wikimedia Commons · Gliss](https://commons.wikimedia.org/wiki/File:Gliss.ogg)
+- [Wikimedia Commons · Clap1](https://commons.wikimedia.org/wiki/File:Clap1.ogg)
+- [Wikimedia Commons · Maracas](https://commons.wikimedia.org/wiki/File:Maracas.ogg)
+- [Wikimedia Commons · Drum Roll Intro](https://commons.wikimedia.org/wiki/File:Drum_Roll_Intro.ogg)
 
 ---
 
