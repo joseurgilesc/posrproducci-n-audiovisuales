@@ -24,6 +24,26 @@ Detrás de estas etapas aparecen distintos roles: **supervisor de sonido, editor
 
 ---
 
+## Pierre Schaeffer y el *Tratado de los objetos musicales*
+
+Pierre Schaeffer (1910–1995) fue un ingeniero, compositor e investigador francés, considerado una de las figuras fundamentales de la **música concreta** y del pensamiento electroacústico del siglo XX.
+
+Su obra teórica más importante, el *Traité des objets musicaux* (1966), propone estudiar el sonido no solamente a partir de su causa o de la fuente que lo produce, sino también como un **objeto de percepción** con cualidades propias.
+
+Este enfoque invita a escuchar un sonido preguntándonos, por ejemplo:
+
+- ¿tiene una altura definida o una masa espectral compleja?
+- ¿es breve, formado o iterativo?
+- ¿cómo evoluciona su energía en el tiempo?
+- ¿qué tipo de grano, dinámica o fluctuación presenta?
+
+Esta manera de escuchar es especialmente útil en **postproducción, diseño sonoro y sonomontaje**, porque permite organizar sonidos por sus propiedades perceptivas y no únicamente por su origen.
+
+!!! quote "Idea central"
+    El interés no está solo en saber **qué produjo el sonido**, sino en comprender **cómo se comporta y cómo es percibido**.
+
+---
+
 ## El objeto sonoro
 
 Para Pierre Schaeffer, un sonido puede estudiarse como **objeto sonoro**: atendiendo a sus cualidades perceptivas y no solamente a la fuente que lo produjo.
