@@ -5,7 +5,7 @@
 - Reconocer las etapas del proceso de postproducción y los roles del equipo.
 - Comprender los conceptos de **masa** y **factura** a partir del análisis del objeto sonoro.
 - Diferenciar sonidos de masa **tónica, compleja y variable**.
-- Diferenciar objetos de factura **impulsiva, mantenida e iterativa**.
+- Diferenciar objetos de factura **impulsiva, formada e iterativa**.
 - Aplicar continuidad, contraste y transformación en un sonomontaje.
 
 ## Contenidos
@@ -165,7 +165,7 @@ Objeto muy breve, dominado por un ataque.
 
 *Ejemplo: palmada breve. Fuente: Wikimedia Commons · WikiGrower1 · CC BY 4.0.*
 
-### Mantenimiento
+### Formado
 
 El sonido presenta continuidad perceptible en el tiempo.
 
@@ -201,7 +201,7 @@ Una serie de impulsos próximos se percibe como un solo objeto organizado por re
   <line x1="160" y1="70" x2="815" y2="70" stroke="currentColor" opacity="0.22"/>
   <path d="M185 70 L245 70 L258 22 L272 70 L800 70" fill="none" stroke="currentColor" stroke-width="5"/>
 
-  <text x="28" y="166" font-size="19" fill="currentColor">Mantenido</text>
+  <text x="28" y="166" font-size="19" fill="currentColor">Formado</text>
   <line x1="160" y1="165" x2="815" y2="165" stroke="currentColor" opacity="0.22"/>
   <path d="M185 165 L230 165 Q250 115 285 115 L650 115 Q690 115 720 165 L800 165" fill="none" stroke="currentColor" stroke-width="5"/>
 
@@ -222,13 +222,13 @@ La utilidad del sistema aparece cuando describimos simultáneamente **qué tipo 
 | Sonido | Masa | Factura |
 |---|---|---|
 | Nota de piano | Tónica | Impulsiva / resonante |
-| Violín sostenido | Tónica | Mantenida |
+| Violín sostenido | Tónica | Formada |
 | Trémolo de mandolina | Tónica | Iterativa |
 | Golpe de platillo | Compleja | Impulsiva / resonante |
-| Ruido blanco continuo | Compleja | Mantenida |
+| Ruido blanco continuo | Compleja | Formada |
 | Maraca | Compleja | Iterativa |
-| Glissando | Tónica variable | Mantenida |
-| Barrido de ruido filtrado | Compleja variable | Mantenida |
+| Glissando | Tónica variable | Formada |
+| Barrido de ruido filtrado | Compleja variable | Formada |
 
 <div style="max-width:760px;margin:1.5rem auto;">
 <svg viewBox="0 0 760 390" width="100%" role="img" aria-label="Matriz de masa y factura">
@@ -247,7 +247,7 @@ La utilidad del sistema aparece cuando describimos simultáneamente **qué tipo 
   <line x1="700" y1="70" x2="700" y2="310" stroke="currentColor" opacity="0.45"/>
 
   <text x="185" y="58" font-size="16" fill="currentColor">Impulsiva</text>
-  <text x="375" y="58" font-size="16" fill="currentColor">Mantenida</text>
+  <text x="375" y="58" font-size="16" fill="currentColor">Formada</text>
   <text x="575" y="58" font-size="16" fill="currentColor">Iterativa</text>
 
   <text x="58" y="115" font-size="16" fill="currentColor">Tónica</text>
@@ -296,7 +296,7 @@ Por ejemplo:
 
 - tónico → complejo;
 - grave → agudo;
-- impulsivo → mantenido;
+- impulsivo → formado;
 - silencio → sonido denso;
 - estable → variable.
 
@@ -337,7 +337,7 @@ En esta sesión nos concentraremos en masa y factura para construir una primera 
     Reproduce los ejemplos anteriores **sin mostrar inicialmente su clasificación**. Pide al grupo que responda primero:  
     1. ¿Hay una altura definida?  
     2. ¿La masa permanece estable o cambia?  
-    3. ¿Es un impulso, un sonido mantenido o una iteración?
+    3. ¿Es un impulso, un sonido formado o una iteración?
 
 1. **Escucha inicial:** identificar rápidamente si distintos sonidos son tónicos, complejos o variables.
 2. **Clasificación temporal:** reconocer impulsión, mantenimiento e iteración.
@@ -356,7 +356,7 @@ En esta sesión nos concentraremos en masa y factura para construir una primera 
    - un objeto de masa compleja;
    - un objeto de comportamiento variable;
    - una impulsión;
-   - un sonido mantenido;
+   - un sonido formado;
    - una iteración.
 7. Escucha colectiva: cada grupo explica una decisión de **continuidad**, una de **contraste** y una de **transformación**.
 
