@@ -69,14 +69,14 @@ Aunque un piano tenga numerosos armónicos, el oído puede integrarlos alrededor
 
 #### Escucha · masa tónica
 
-**Onda sinusoidal de 440 Hz (La4)**
+**Tecla de piano · Do4 (C4)**
 
 <audio controls preload="none" style="width:100%">
-  <source src="https://commons.wikimedia.org/wiki/Special:Redirect/file/440_Sine_wave.ogg" type="audio/ogg">
+  <source src="https://raw.githubusercontent.com/mcapodici/pianosounds/master/Piano.mf.C4.ogg" type="audio/ogg">
   Tu navegador no soporta reproducción de audio.
 </audio>
 
-*Escucha una altura completamente estable y definida. Fuente: Wikimedia Commons · Ubershmekel · CC0.*
+*Escucha una altura definida, pero con un espectro más rico que una onda sinusoidal. El ataque y la resonancia propios del piano permiten reconocer con claridad una masa tónica. Fuente: repositorio `mcapodici/pianosounds` en GitHub.*
 
 ### Masa compleja
 
@@ -401,7 +401,7 @@ El montaje debe incluir conscientemente:
 - Schaeffer, Pierre. *Treatise on Musical Objects: An Essay Across Disciplines*. University of California Press, 2017.
 - Obra de referencia: *Fragtraz* u otro montaje sonoro seleccionado para la clase.
 - Material complementario sobre tipología y morfología del objeto sonoro disponible en Classroom.
-- [Wikimedia Commons · 440 Sine wave](https://commons.wikimedia.org/wiki/File:440_Sine_wave.ogg)
+- [GitHub · mcapodici/pianosounds · Piano.mf.C4.ogg](https://github.com/mcapodici/pianosounds/blob/master/Piano.mf.C4.ogg)
 - [Wikimedia Commons · Crash cymbal](https://commons.wikimedia.org/wiki/File:Crash_cymbal.ogg)
 - [Wikimedia Commons · Gliss](https://commons.wikimedia.org/wiki/File:Gliss.ogg)
 - [Wikimedia Commons · Clap1](https://commons.wikimedia.org/wiki/File:Clap1.ogg)
