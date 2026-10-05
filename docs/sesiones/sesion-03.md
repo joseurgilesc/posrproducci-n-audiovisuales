@@ -1,22 +1,42 @@
-# Sesión 03: Tipos de enlace, instrumentos virtuales, envolventes y efectos
+# Sesión 03: Articulación, tipos de enlace, instrumentos virtuales, envolventes y efectos
 
 ## Objetivos
 
-- Distinguir los tipos de enlace entre eventos sonoros.
+- Distinguir formas de articulación entre eventos sonoros y relaciones perceptuales entre ellos.
 - Manejar la vista de arreglo, las pistas MIDI y los instrumentos virtuales.
 - Aplicar envolventes de amplitud, filtro y altura, y efectos básicos con automatización.
 
 ## Contenidos
 
-El **enlace** es la manera en que un evento sonoro se conecta con el siguiente. Los cinco tipos principales son:
+### 1. Articulación entre eventos sonoros
 
-1. **Semejanza**: unión por parecido tímbrico o rítmico.
-2. **Proximidad**: continuidad por cercanía temporal o espacial.
-3. **Superposición**: un sonido comienza antes de que el anterior termine.
-4. **Transformación**: un material se convierte gradualmente en otro.
-5. **Contraste**: corte deliberado por diferencia marcada.
+La **articulación** describe cómo se relaciona temporalmente un sonido con el siguiente.
 
-Cada tipo produce un efecto distinto sobre la continuidad: los tres primeros la favorecen; la transformación la construye; el contraste la interrumpe con intención.
+- **Articulación discontinua**: los sonidos están separados por silencios.
+- **Articulación continua**: los sonidos se suceden sin silencios perceptibles entre ellos. Puede presentarse de dos formas principales:
+  - **Yuxtaposición**: un sonido comienza inmediatamente después de que termina el anterior, sin silencio entre ambos.
+  - **Solapamiento o imbricación**: el nuevo sonido comienza antes de la extinción del anterior, produciendo un lapso de superposición entre ambos. Un caso particular es el **fundido cruzado (*crossfade*)**, en el que un sonido disminuye progresivamente mientras el siguiente aumenta.
+
+### 2. Relaciones entre los sonidos
+
+Además de observar **cómo se articulan en el tiempo**, podemos analizar la relación perceptual entre los eventos sonoros:
+
+- **Semejanza**: unión por características comunes de timbre, masa, factura, registro, ritmo o dinámica.
+- **Contraste**: relación basada en una diferencia marcada entre los sonidos.
+- **Transformación**: un sonido, textura o material evoluciona progresivamente hasta convertirse perceptualmente en otro.
+
+Estas relaciones pueden combinarse con diferentes formas de articulación. Por ejemplo, puede existir **yuxtaposición con contraste** o **solapamiento con semejanza**.
+
+### 3. Envolvente y evolución temporal del sonido
+
+Una **envolvente** describe cómo cambia un parámetro a lo largo del tiempo. La envolvente de amplitud suele explicarse mediante el modelo **ADSR**:
+
+- **Attack (ataque)**: tiempo que tarda el sonido en alcanzar su nivel inicial.
+- **Decay (decaimiento)**: tiempo que tarda en descender después del ataque.
+- **Sustain (sostenimiento)**: nivel que se mantiene mientras el sonido permanece activo.
+- **Release (liberación)**: tiempo que tarda el sonido en extinguirse.
+
+La forma de la envolvente influye directamente en la percepción de la articulación: un ataque corto puede producir una entrada más definida, mientras que un ataque lento o un *release* largo pueden favorecer la sensación de continuidad o imbricación.
 
 En la **vista de arreglo** de Ableton Live se organizan los eventos en el tiempo. Las **pistas MIDI** alimentan **instrumentos virtuales**, que permiten generar y controlar sonidos sin depender de grabaciones.
 
@@ -30,8 +50,8 @@ Los **efectos básicos** y la **automatización** permiten animar niveles, panor
 
 ## Actividades
 
-1. Revisión auditiva de sonomontajes y clasificación de los enlaces utilizados.
-2. Explicación de las cinco formas de enlace y su efecto sobre la continuidad.
+1. Revisión auditiva de sonomontajes e identificación de articulaciones y relaciones entre los sonidos.
+2. Explicación de articulación discontinua, yuxtaposición, solapamiento o imbricación, semejanza, contraste y transformación.
 3. Demostración de la vista de arreglo, pistas MIDI, instrumentos y envolventes.
 4. Diseño guiado de tres sonidos con ataques, sostenimientos y decaimientos diferentes.
 5. Construcción de un sonomontaje en tres partes: presentación, transformación y cierre.
