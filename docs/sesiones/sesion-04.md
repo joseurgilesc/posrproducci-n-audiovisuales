@@ -52,6 +52,11 @@ Recordemos las tres categorías trabajadas en la sesión 02:
 </svg>
 </div>
 
+
+<div style="max-width:900px;margin:1rem auto;">
+<iframe title="Demostración audiovisual de masa" src="../ejemplos-audiovisuales-s04.html?demo=masa" loading="lazy" style="display:block;width:100%;height:380px;border:0;border-radius:12px;" allow="autoplay"></iframe>
+</div>
+
 Una nota de piano contiene numerosos armónicos, pero se percibe con una altura definida. Por eso **masa tónica no significa una sola frecuencia**, ni masa compleja significa necesariamente «más volumen».
 
 La imagen puede reforzar esa organización o contradecirla: una textura visual muy densa también puede acompañarse de un sonido tonal simple.
@@ -78,6 +83,11 @@ En lugar de asignar notas a colores, podemos trabajar con tres dimensiones de la
   <text x="25" y="195" font-size="19" fill="currentColor">Saturación</text>
   <rect x="183" y="169" width="635" height="43" rx="10" fill="url(#s04sat)"/>
 </svg>
+</div>
+
+
+<div style="max-width:900px;margin:1rem auto;">
+<iframe title="Demostración audiovisual de color" src="../ejemplos-audiovisuales-s04.html?demo=color" loading="lazy" style="display:block;width:100%;height:380px;border:0;border-radius:12px;" allow="autoplay"></iframe>
 </div>
 
 | Propiedad visual | Analogía sonora posible |
@@ -122,6 +132,11 @@ En la sesión 02 diferenciamos **impulsión, formado e iteración**. Estas forma
 </svg>
 </div>
 
+
+<div style="max-width:900px;margin:1rem auto;">
+<iframe title="Demostración audiovisual de factura" src="../ejemplos-audiovisuales-s04.html?demo=factura" loading="lazy" style="display:block;width:100%;height:380px;border:0;border-radius:12px;" allow="autoplay"></iframe>
+</div>
+
 Esta analogía recuerda a <a href="https://www.bauhaus-bookshelf.org/bauhaus-book-9-vassily-kandinsky-point-and-line-to-plane_pdf.html">Kandinsky, <em>Punto y línea sobre el plano</em></a>: el punto concentra un acontecimiento y la línea permite pensar su continuidad y dirección.
 
 **Factura no es lo mismo que ritmo:** la primera describe cómo está constituido temporalmente un objeto; el segundo organiza las relaciones temporales entre acontecimientos. Por ejemplo, un redoble rápido puede percibirse como un único objeto iterativo.
@@ -148,6 +163,11 @@ La relación entre sonido e imagen no tiene que ser literal. Podemos utilizar tr
 - **Correspondencia:** una superficie rugosa acompañada de un sonido áspero.
 - **Contraste:** una imagen caótica con una nota estable y tenue.
 - **Transformación:** una forma que se expande mientras el sonido cambia gradualmente de masa o timbre.
+
+
+<div style="max-width:900px;margin:1rem auto;">
+<iframe title="Demostración audiovisual de contraste" src="../ejemplos-audiovisuales-s04.html?demo=contraste" loading="lazy" style="display:block;width:100%;height:380px;border:0;border-radius:12px;" allow="autoplay"></iframe>
+</div>
 
 Según Michel Chion, sonido e imagen se influyen mutuamente: juntos generan una percepción que no es la simple suma de ambos. Su concepto de **síncresis** describe la asociación perceptiva entre un acontecimiento visual y uno sonoro cuando coinciden temporalmente.
 
