@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laboratorio audiovisual · Masa, factura y sincronía</title>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tone@15.1.22/build/Tone.js"></script>
+<style>body{font:16px system-ui;background:#101827;color:#f1f5fa;max-width:920px;margin:auto;padding:22px}button,select,input{font:inherit;margin:5px;padding:9px;border-radius:8px}button{background:#70c5ff;border:0;cursor:pointer}section{background:#1c293d;padding:18px;border-radius:14px;margin:16px 0}canvas{max-width:100%;height:auto!important;border-radius:12px}label{display:inline-block;margin:8px}small{color:#c3d3e7}a{color:#9bd9ff}</style></head>
+<body><h1>Laboratorio audiovisual: masa, factura y sincronización</h1><p>Ejemplos didácticos con <strong>Tone.js</strong> (síntesis) y <strong>p5.js</strong> (imagen). Activa el audio con un clic. Usa auriculares y un volumen moderado.</p>
+<section><h2>1 · Masa sonora</h2><p>Compara un tono relativamente concentrado con un sonido de mayor complejidad espectral. La imagen propone densidad y textura como analogías, no equivalencias obligatorias.</p><button id="pure">Tono concentrado</button><button id="rich">Masa compleja</button><p id="massText">Escucha y describe la masa antes de observar la imagen.</p></section>
+<section><h2>2 · Factura</h2><p>Escucha tres comportamientos: impulso, sostenimiento e iteración. Observa aparición, permanencia y repetición.</p><button id="impulse">Impulsiva</button><button id="sustain">Sostenida</button><button id="iterate">Iterativa</button><p id="factText">¿Qué cambia: la forma, su duración o su frecuencia de aparición?</p></section>
+<section><h2>3 · Sincronía audiovisual</h2><p>Una señal visual ocurre en el segundo 1. Ajusta el desplazamiento del golpe y compara anticipación, coincidencia y retraso.</p><label>Desfase: <output id="offsetValue">0</output> ms <input id="offset" type="range" min="-400" max="400" step="50" value="0"></label><button id="sync">Reproducir secuencia</button><p id="syncText">Un desfase negativo anticipa el sonido; uno positivo lo retrasa.</p></section>
+<div id="sketch"></div><p><small>Conceptos: Pierre Schaeffer (masa y factura); Kandinsky (punto, línea, tensiones visuales). La correspondencia sonido-imagen es una decisión artística argumentable.</small></p>
+<script>
+let mode='idle',start=0,offset=0,events=[],playing=false;
+const $=id=>document.getElementById(id);
+const synth=new Tone.Synth({oscillator:{type:'sine'},envelope:{attack:.01,decay:.12,sustain:.65,release:.35}}).toDestination();
+const complex=new Tone.PolySynth(Tone.Synth).toDestination();complex.volume.value=-14;
+const hit=new Tone.MembraneSynth({pitchDecay:.03,octaves:4,envelope:{attack:.001,decay:.2,sustain:0,release:.12}}).toDestination();
+async function ready(){await Tone.start();Tone.Transport.stop();Tone.Transport.cancel();events=[];playing=false}
+function run(kind){mode=kind;start=performance.now();playing=true}
+$('pure').onclick=async()=>{await ready();run('pure');synth.triggerAttackRelease('C4',1.8);$('massText').textContent='Masa concentrada: una figura nítida y aislada.'};
+$('rich').onclick=async()=>{await ready();run('rich');complex.triggerAttackRelease(['C3','G3','D4','F#4','B4'],1.8);$('massText').textContent='Masa compleja: múltiples capas y trazos. ¿Propondrías otra traducción?'};
+$('impulse').onclick=async()=>{await ready();run('impulse');hit.triggerAttackRelease('C2','8n');$('factText').textContent='Impulso: irrupción breve, no necesariamente un punto.'};
+$('sustain').onclick=async()=>{await ready();run('sustain');synth.triggerAttackRelease('G3',2.2);$('factText').textContent='Sostenimiento: presencia continua y transformación gradual.'};
+$('iterate').onclick=async()=>{await ready();run('iterate');for(let i=0;i<6;i++)events.push({at:i*.35,kind:'hit'});$('factText').textContent='Iteración: seis ataques a intervalos regulares.'};
+$('offset').oninput=e=>{$('offsetValue').textContent=e.target.value;offset=Number(e.target.value)};
+$('sync').onclick=async()=>{await ready();run('sync');events=[{at:Math.max(0,1+offset/1000),kind:'hit'}];$('syncText').textContent='La figura se ilumina en 1,00 s; el golpe ocurre en '+(1+offset/1000).toFixed(2)+' s.'};
+function setup(){let c=createCanvas(850,310);c.parent('sketch');textFont('system-ui')}
+function draw(){background(13,24,41);let t=(performance.now()-start)/1000;stroke(55,83,118);line(30,260,820,260);noStroke();fill(197,219,241);textSize(15);text('VISUALIZACIÓN EN TIEMPO REAL',24,28);
+if(mode==='pure'){fill(93,174,255);circle(width/2,145,95)}
+else if(mode==='rich'){for(let i=0;i<90;i++){let a=i*2.399,r=10+Math.sqrt(i)*13;fill(85+i%4*33,120+i%5*20,240,170);circle(width/2+Math.cos(a+t*.4)*r,145+Math.sin(a+t*.4)*r,4+i%7)}}
+else if(mode==='impulse'){if(t<.28){fill(125,209,255);circle(width/2,145,120*(1-t/.32))}}
+else if(mode==='sustain'){if(t<2.4){fill(85,173,240);rect(120,120,610* Math.min(1,t/.6),45,18)}}
+else if(mode==='iterate'){for(let i=0;i<6;i++){let age=t-i*.35;if(age>=0&&age<.25){fill(105,200,255);circle(145+i*110,150,55*(1-age/.3))}}}
+else if(mode==='sync'){fill(55,80,110);circle(width/2,145,115);if(Math.abs(t-1)<.14){fill(255,195,80);circle(width/2,145,125)}fill(180,208,240);text('Evento visual: 1,00 s',330,235)}
+if(playing){for(let i=events.length-1;i>=0;i--){if(t>=events[i].at){hit.triggerAttackRelease('C2','8n');events.splice(i,1)}}if(t>3.5)playing=false}
+fill(170,195,224);text('Tiempo: '+(mode==='idle'?'—':Math.max(0,t).toFixed(2)+' s'),25,288);
+}
+</script></body></html>
