@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ejemplos audiovisuales · Masa, factura y color</title>
+<script src="https://cdn.jsdelivr.net/npm/tone@15.1.22/build/Tone.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:#121b2c;color:#eaf1fb}
+main{padding:17px 19px 14px;max-width:960px;margin:auto}.intro{margin:0 0 12px;color:#c7d8ee}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 11px}
+button{appearance:none;border:1px solid #6d87a6;border-radius:8px;background:#243b58;color:#f4f9ff;font:inherit;padding:8px 13px;cursor:pointer}
+button:hover,button:focus-visible{background:#36577d}button[aria-pressed="true"]{background:#176c82;border-color:#80d9e7}
+canvas{display:block;width:100%;height:auto;background:#0b1423;border:1px solid #30435b;border-radius:10px}
+.note{margin:9px 0 0;color:#c0d0e5;font-size:14px;min-height:2em}small{color:#a7bacf}
+</style>
+</head>
+<body>
+<main><p class="intro" id="intro"></p><div class="controls" id="controls"></div><canvas id="visual" width="880" height="230" role="img" aria-label="Animación de la relación entre cualidades sonoras y visuales"></canvas><p class="note" id="note">Pulsa un ejemplo para escuchar y observar. Utiliza un volumen moderado.</p></main>
+<script>
+(() => {
+"use strict";
+const qs=new URLSearchParams(location.search), demo=qs.get("demo")||"masa";
+const intros={
+ masa:"MASA · Tres formas de organización perceptiva del sonido. Escucha primero; después compara la analogía visual.",
+ factura:"FACTURA · La forma en que aparece y se desarrolla el objeto sonoro: impulsión, formado e iteración.",
+ color:"COLOR Y SONIDO · Prueba una asociación artística entre altura y luminosidad. El matiz no está determinado por la nota.",
+ contraste:"CORRESPONDENCIA Y CONTRASTE · La misma imagen puede adquirir un carácter diferente según su masa sonora."
+};
+const options={
+ masa:[["tonica","Tónica"],["compleja","Compleja"],["variable","Variable"]],
+ factura:[["impulsiva","Impulsiva"],["formada","Formada"],["iterativa","Iterativa"]],
+ color:[["grave","Grave · oscuro"],["agudo","Agudo · claro"],["ascenso","Ascenso gradual"]],
+ contraste:[["correspondencia","Correspondencia"],["contraste","Contraste"]]
+};
+const explanations={
+ tonica:"Una altura definida puede sugerir una forma única. Masa tónica no significa espectro simple.",
+ compleja:"Ruido filtrado sin altura precisa; las partículas son una analogía de textura, no una conversión del espectro.",
+ variable:"Una altura que asciende: la trayectoria visual sugiere cambio de registro y masa variable.",
+ impulsiva:"Un golpe breve provoca una aparición súbita.",
+ formada:"Un sonido formado mantiene su presencia mientras la línea se extiende.",
+ iterativa:"Impulsos próximos forman un objeto iterativo; el ritmo puede ser regular o irregular.",
+ grave:"Tono grave junto a una imagen oscura: una asociación posible, no universal.",
+ agudo:"Tono agudo junto a una imagen luminosa. Observa que el matiz del fondo no cambia.",
+ ascenso:"Glissando ascendente con aumento de luminosidad visual; una elección compositiva.",
+ correspondencia:"Imagen granulada con ruido: semejanza entre densidad visual y textura sonora.",
+ contraste:"La misma imagen granulada con un tono puro: la contradicción también es expresiva."
+};
+const canvas=document.getElementById("visual"),ctx=canvas.getContext("2d"),note=document.getElementById("note"),buttons=document.getElementById("controls");
+document.getElementById("intro").textContent=intros[demo]||intros.masa;
+let active="", start=0, duration=2.7, generation=0, nodes=[], timers=[], playing=false;
+let audioReady=false;
+const W=canvas.width,H=canvas.height;
+function addButton(key,label){
+ const b=document.createElement("button");b.type="button";b.textContent="▶ "+label;b.setAttribute("aria-pressed","false");
+ b.addEventListener("click",()=>play(key));buttons.appendChild(b);
+}
+(options[demo]||options.masa).forEach(([key,label])=>addButton(key,label));
+function reset(){
+ generation++;
+ timers.forEach(id=>clearTimeout(id));timers=[];
+ nodes.forEach(n=>{try{if(n.triggerRelease)n.triggerRelease();if(n.stop)n.stop();n.dispose()}catch(e){}});nodes=[];
+ playing=false;
+ for(const b of buttons.children)b.setAttribute("aria-pressed","false");
+}
+function keep(n){nodes.push(n);return n}
+function later(cb,ms){const g=generation;timers.push(setTimeout(()=>{if(g===generation)cb()},ms))}
+const gain=()=>keep(new Tone.Volume(-22).toDestination());
+function tone(freq,sec,kind="sine"){
+ const vol=gain(),s=keep(new Tone.Synth({oscillator:{type:kind},envelope:{attack:.025,decay:.12,sustain:.55,release:.24}}).connect(vol));
+ s.triggerAttackRelease(freq,sec,Tone.now()+.05);
+}
+function noise(sec){
+ const vol=gain(),filter=keep(new Tone.Filter({frequency:1500,type:"bandpass",Q:.7}).connect(vol));
+ const n=keep(new Tone.Noise({type:"pink"}).connect(filter));n.start(Tone.now()+.05);n.stop(Tone.now()+sec+.05);
+}
+function slide(from,to,sec){
+ const vol=gain(),osc=keep(new Tone.Oscillator({frequency:from,type:"sine"}).connect(vol));
+ const env=keep(new Tone.AmplitudeEnvelope({attack:.07,decay:.1,sustain:.65,release:.2}).connect(vol));
+ // Connect oscillator through envelope (disconnect initial path to avoid doubling).
+ osc.disconnect();osc.connect(env);osc.start(Tone.now()+.05);
+ osc.frequency.exponentialRampToValueAtTime(to,Tone.now()+sec+.05);
+ env.triggerAttackRelease(sec,Tone.now()+.05);osc.stop(Tone.now()+sec+.3);
+}
+function hit(at=0){
+ const vol=gain(),s=keep(new Tone.MembraneSynth({pitchDecay:.025,octaves:2,envelope:{attack:.002,decay:.16,sustain:0,release:.05}}).connect(vol));
+ s.triggerAttackRelease("C3","16n",Tone.now()+.06+at);
+}
+async function play(key){
+ reset();active=key;note.textContent=explanations[key]||"";
+ for(const b of buttons.children)if(b.textContent.includes((options[demo]||options.masa).find(x=>x[0]===key)[1]))b.setAttribute("aria-pressed","true");
+ try{
+  await Tone.start();audioReady=true;
+  const now=performance.now();start=now+55;playing=true;
+  if(["tonica","formada","grave","agudo","contraste"].includes(key)){
+   tone(key==="grave"?"C3":key==="agudo"?"C6":key==="contraste"?"C4":"C4",2.15,key==="formada"?"triangle":"sine");
+  }else if(["compleja","correspondencia"].includes(key))noise(2.2);
+  else if(["variable","ascenso"].includes(key))slide(175,820,2.25);
+  else if(key==="impulsiva")hit();
+  else if(key==="iterativa")for(let i=0;i<7;i++)hit(i*.28);
+  duration=key==="impulsiva"?1.1:2.6;
+  later(()=>{playing=false},duration*1000+150);
+ }catch(e){playing=false;note.textContent="No se pudo activar el audio. Comprueba el volumen o la conexión e inténtalo de nuevo."}
+}
+function rect(x,y,w,h,color){ctx.fillStyle=color;ctx.fillRect(x,y,w,h)}
+function circle(x,y,r,color){ctx.beginPath();ctx.arc(x,y,Math.max(.1,r),0,Math.PI*2);ctx.fillStyle=color;ctx.fill()}
+function line(x,y,x2,y2,w,color){ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x2,y2);ctx.strokeStyle=color;ctx.lineWidth=w;ctx.lineCap="round";ctx.stroke()}
+function draw(){
+ const t=playing?Math.max(0,(performance.now()-start)/1000):0,p=Math.min(1,t/2.25);
+ rect(0,0,W,H,"#0b1423");
+ if(["tonica","grave","agudo","formada","impulsiva","iterativa","variable","compleja","ascenso"].includes(active)&&playing){
+ if(active==="tonica")circle(440,114,55,"#6ab6ef");
+ if(active==="compleja"){
+  for(let i=0;i<125;i++){let a=i*2.399,r=8+Math.sqrt(i)*10,x=440+Math.cos(a+t*.3)*r,y=114+Math.sin(a+t*.3)*r;circle(x,y,2+(i%4),`rgba(184,134,220,${.35+(i%4)*.13})`)}
+ }
+ if(active==="variable"){line(115,185,760,46,8,"#6ad9b0");circle(115+p*645,185-p*139,23,"#7cf3c9")}
+ if(active==="impulsiva"&&t<.28){circle(440,114,85*(1-t/.3),"#ffad75")}
+ if(active==="formada")line(110,114,110+p*655,114,17,"#70b5f4");
+ if(active==="iterativa")for(let i=0;i<7;i++){let age=t-i*.28;if(age>=0&&age<.3)circle(130+i*99,114,33*(1-age/.3),"#bb94ed")}
+ if(active==="grave"||active==="agudo"||active==="ascenso"){
+  const light=active==="grave"?.16:active==="agudo"?.83:.16+p*.67;
+  const L=Math.round(16+light*210);
+  rect(0,0,W,H,`rgb(${Math.round(L*.84)},${Math.round(L*.92)},${L})`);
+  circle(440,114,47,light>.5?"#254569":"#a5d9fc");
+ }
+ }
+ if(demo==="contraste"){
+   for(let i=0;i<155;i++){let x=45+(i*127.7)%790,y=18+(i*53.9)%195;circle(x,y,2+i%3,"rgba(191,159,230,.65)")}
+ }
+ if(!playing&&demo!=="contraste"){
+  ctx.textAlign="center";ctx.font="16px system-ui";ctx.fillStyle="#b6c8db";ctx.fillText("Selecciona una opción para activar audio y animación",W/2,H/2);
+ }
+ if(playing){rect(20,H-11,(W-40)*Math.min(1,t/duration),4,"#76d2db")}
+ requestAnimationFrame(draw);
+}
+draw();
+window.addEventListener("pagehide",reset);
+})();
+</script></body></html>
